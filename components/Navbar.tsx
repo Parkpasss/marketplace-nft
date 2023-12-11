@@ -6,7 +6,7 @@ import NextLink from 'next/link'
 const Navbar = () => {
   const address = useAddress()
   return (
-    <Box maxW={'1200px'} m={'auto'} py={'10px'} px={'40px'} bg={'pink'}>
+    <Box maxW={'1200px'} m={'auto'} py={'10px'} px={'40px'} bg={'yellow'}>
       <Flex justifyContent={'space-between'} alignItems={'center'}>
         <Link as={NextLink} href="/">
           <Heading>Marketplace</Heading>
