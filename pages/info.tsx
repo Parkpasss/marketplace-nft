@@ -5,7 +5,7 @@ export default function Info() {
   const address = useAddress()
 
   return (
-    <Container maxW={'1200px'} p={5} bg="red.100">
+    <Container maxW={'1200px'} p={5} bg="yellow.100">
       <Heading> Infomation </Heading>
       <Text>
         Developed by Park Jina <br />
