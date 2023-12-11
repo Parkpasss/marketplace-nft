@@ -76,6 +76,7 @@ const Home = () => {
     activeClaimCondition.data?.currencyMetadata.value,
     quantity,
   ])
+
   const maxClaimable = useMemo(() => {
     let bnMaxClaimable
     try {
@@ -233,6 +234,7 @@ const Home = () => {
               alt={contractMetadata?.name!}
               width={200}
               height={200}
+              style={{ objectFit: 'contain' }}
             />
           )}
 
