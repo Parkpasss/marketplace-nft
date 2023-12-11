@@ -230,7 +230,7 @@ const Home = () => {
         <>
           {contractMetadata?.image && (
             <Image
-              src={contractMetadata?.image}
+              src="../public/images/chic.png"
               alt={contractMetadata?.name!}
               width={200}
               height={200}
