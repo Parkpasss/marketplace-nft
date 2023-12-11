@@ -52,6 +52,9 @@ export default function NFTComponent({ nft }: Props) {
       <Text fontSize={'small'} color={'darkgray'}>
         Token ID #{nft.metadata.id}
       </Text>
+      <Text fontSize={'small'} color={'darkred'}>
+        Owner: {nft.owner.slice(0, 6)}...{nft.owner.slice(-4)}
+      </Text>
       <Text fontWeight={'bold'}>{nft.metadata.name}</Text>
 
       <Box>

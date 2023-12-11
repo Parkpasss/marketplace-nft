@@ -23,7 +23,7 @@ export default function ProfilePage() {
   )
   console.log(ownedNfts)
   return (
-    <Container maxW={'1200px'} p={5}>
+    <Container maxW={'1200px'} p={5} bg="yellow.100">
       <Heading>{'Owned NFT(s)'}</Heading>
       <Text>Browse and manage your NFTs from this collection.</Text>
       <NFTGrid
