@@ -76,6 +76,7 @@ const Home = () => {
     activeClaimCondition.data?.currencyMetadata.value,
     quantity,
   ])
+  console.log('Image URL:', contractMetadata?.image)
 
   const maxClaimable = useMemo(() => {
     let bnMaxClaimable
